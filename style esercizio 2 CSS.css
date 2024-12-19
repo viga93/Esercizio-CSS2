@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://4.bp.blogspot.com/-qEXuUm1X6iY/WARZuqaOhlI/AAAAAAAAGSs/_EiYexuemPoNcXcZ2JQGOz1yOzG7PAciACLcB/s1600/Woow+Cool+Picture+Dubai+photo+by+sandyvacations.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: turquoise;
+}
+
+nav {
+    background-color: gray;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: border-bottom 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-bottom: 3px solid turquoise;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px 0;
+}
+
+header img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+}
+
+article {
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+article h3 {
+    font-size: 2em;
+    margin-top: 10px;
+    color: turquoise;
+}
+
+article p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+article a {
+    color: blue;
+}
+
+article a:hover {
+    background-color: aqua;
+}
+
+aside {
+    width: 35%;
+    background-color: yellow;
+    padding: 20px;
+}
+
+aside h2 {
+    font-size: 1.5em;
+    color: black;
+}
+
